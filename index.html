@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marriage age check</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="inner">
+            <div id="name">
+                <label for="nam">Your name</label>
+                <input id="nam" placeholder="Name" type="text">
+            </div>
+            <div id="gender">
+                <label for="gndr">Your gender</label>
+                <select name="" id="gndr">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Others</option>
+                </select>
+            </div>
+            <div id="birth">
+                <label for="birth">Your Birthday</label>
+                <input id="birthday" type="date">
+            </div>
+
+            <div id="submit">
+                <button id="send">Done</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="resultoverlay">
+        <div id="result">
+            <h3 id="output">Hello there you are elegible for marrage</h3>
+            <span></span>
+        </div>
+    </div>
+    
+
+
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
